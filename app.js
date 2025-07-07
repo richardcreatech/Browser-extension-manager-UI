@@ -63,7 +63,7 @@ const display_all_items = async function () {
 
 
 }
-
+display_all_items()
 const display_active_items = async function () {
     extItems.innerHTML = ``
     
