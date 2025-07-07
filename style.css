@@ -1,0 +1,200 @@
+*{
+  padding: 0;
+  margin: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+#logo{
+  width: inherit;
+}
+
+body{
+      /* background-image: linear-gradient(180deg,white 0%, grey 100%); */
+      background: linear-gradient(190deg, #00003c), linear-gradient(90deg ,#12124d5d);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+       /* height: 100%; */
+        /* margin: 0; */
+        /* padding: 0; */
+        width: 100%;
+    }
+
+    body::-webkit-scrollbar{
+      visibility: hidden;
+      display: none;
+    }
+
+    #sectionSpace{
+      display: flex;
+      gap: 55px;
+      flex-direction: column;
+    }
+
+    #sectionSpace header{
+      position: sticky;
+      margin-top: 3%;
+      background: rgba(255, 255, 255, 0.17);
+      padding: 5px;
+      width: 90vw;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-radius: 1rem;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color: white;
+    }
+
+    #sectionSpace header #title{
+      margin-left: 10px;
+      font-weight: 500;
+    }
+
+    #settingsIconBox{
+      background: rgba(255, 255, 255, 0.323);
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+      display: flex;
+      justify-content: center;
+      border-radius: 0.3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 300;
+    }
+
+    #sectionSpace  main section #extBanner{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: sans-serif;
+    }
+
+    #sectionSpace  main section #extBanner nav ul{
+      display: flex;
+      gap: 5%;
+      margin-right: 30px;
+    }
+    
+    
+    #sectionSpace  main section #extBanner nav ul li{
+      list-style: none;
+      font-family: sans-serif;
+      /* border: lightcoral solid; */
+      color: white;
+      padding: 7px 10px;
+      border-radius: 2rem;
+      background-color: rgba(255, 255, 255, 0.17);
+    }
+
+    #sectionSpace  main section #extBanner nav ul li:hover{
+      font-weight: bold;
+      color: #00003c;
+      background-color: rgba(255, 93, 56, 0.848);
+      cursor: pointer;
+    }
+
+    #extensionsList{
+      color: white;
+    }
+
+
+    #sectionSpace  main section #extItems .item-container{
+      background: rgba(249, 249, 251, 0.144);
+      max-width: fit-content;
+      padding: 20px;
+      border-radius: 1em;
+      border: solid rgba(255, 255, 255, 0.163) 0.1px;
+    }
+
+.itemInfo1 {
+  display: flex;
+  gap: 20px;
+  /* align-items: center; */
+}
+
+.itemInfo2 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  /* font-weight: 100; */
+}
+
+.itemInfo2Paragragh{
+  width: 200px;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.301);
+}
+
+.itemInfo2 h2{
+}
+
+.extIcon{
+  width: 30px;
+  height: 30px;
+  border-radius: 0.3rem;
+  background: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggleRemove{
+
+}
+
+#extItems{
+  /* width: 10%; */
+  margin: 10px;
+  display: grid;grid-template-columns: repeat(3, 3fr)
+;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.toggleRemove{
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.removeButton{
+  background-color: transparent;
+  border: rgba(255, 255, 255, 0.242) solid;
+  padding: 5px 7px;
+  color: rgba(255, 255, 255, 0.242);
+  border-radius: 20rem;
+}
+
+.toggleMe{
+  background-color: rgba(255, 93, 56, 0.848);
+  width: 30px;
+  height: 10px;
+  display: flex;
+  border-radius: 3rem;
+  align-items: center;
+  /* background-color: ; */
+  padding: 5px;
+}
+
+.fa-headphones-simple{
+  background-color: white;
+  border-radius: 10rem;
+  padding: 5px;
+  font-size: 10px;
+  transform: translate(30);
+}
+
+/* .pickMe{
+  background-color: rgba(255, 93, 56, 0.848);
+} */
+
+.hiddenToggle{
+  display: none;
+}
